@@ -11,5 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
 html, body {
     width: 100vw;
+    background: ${props => props.theme['background']};
+    font-family: 'Roboto', sans-serif;
 }
 `

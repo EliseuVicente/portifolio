@@ -1,10 +1,13 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Context } from "../../contexts/context";
-import { DivTeste, HandleChangeTheme } from "./styles";
+import { CicleChengeTheme, Container, ContainerLogo, HandleChangeTheme } from "./styles";
 
 export function NavBar(){
 
 const {DarkTheme, setDarkTheme} = useContext(Context)
+
+const left = 26
+const rigth = 0
 
 const ChangeTheme = () => {
         setDarkTheme(!DarkTheme)
@@ -12,15 +15,22 @@ const ChangeTheme = () => {
 
     return (
         <>
-         <h1>Hello World, I'm Eliseu Henrique !</h1>
+         
+        <Container>
 
+            <ContainerLogo>
+                <p>Eliseu Vicente</p>
+            </ContainerLogo>
+        
          <HandleChangeTheme
-            onClick={()=> ChangeTheme()}
-         >Mudar tema</HandleChangeTheme>
+            onClick={()=> ChangeTheme()}>
+                <CicleChengeTheme
+                    style={{ [DarkTheme ? 'left' : 'rigth']: `${DarkTheme ? left : rigth}px`}}
+                ></CicleChengeTheme>
+            </HandleChangeTheme>
 
-         <DivTeste>
-            <h1>Ola</h1>
-         </DivTeste>
+        </Container>
+        
         </>
         
 
