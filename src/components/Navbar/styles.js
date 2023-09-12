@@ -2,8 +2,13 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    padding: 3rem 8rem;
+   
+    margin: 1rem 2rem 0;
+    padding: 1rem 5rem;
     justify-content: space-between;
+    align-items: center;
+    border: 1px solid ${props => props.theme['base-title']};
+    border-radius: 10px;
 `
 export const ContainerLogo = styled.div`
     display: flex;
