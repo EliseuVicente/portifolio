@@ -2,20 +2,46 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-   
-    margin: 1rem 2rem 0;
     padding: 1rem 5rem;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid ${props => props.theme['base-title']};
-    border-radius: 10px;
 `
 export const ContainerLogo = styled.div`
     display: flex;
 
     p {
         color: ${props => props.theme['base-title']};
-        font-size: 30px;
+        font-size: 25px;
+        font-family: 'Baloo 2';
+    }
+`
+
+export const ContainerMenu = styled.div`
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    flex-shrink: 0;
+
+    a{
+        text-decoration: none;
+        color: ${props => props.theme['base-title']};
+        font-size: 18px;
+        
+    }
+
+    li{
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    :hover{
+        cursor: pointer;
+        color: #fff;
+        border: 1px solid ${props => props.theme['base-subtitle']};
+        background-color: ${props => props.theme['base-subtitle']};
+        border-radius: 10px;
+        padding: 4px;
+        margin: -5px;
     }
 `
 
