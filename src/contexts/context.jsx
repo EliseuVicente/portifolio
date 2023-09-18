@@ -4,7 +4,7 @@ export const Context = createContext({ })
 
 export function ContextProvider({children}){
 
-    const [DarkTheme, setDarkTheme] = useState(true)
+    const [DarkTheme, setDarkTheme] = useState(false)
     
     return (
         <Context.Provider
