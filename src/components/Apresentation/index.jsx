@@ -1,17 +1,18 @@
 import { ButtonContact, Container, ContainerApresentation, ContainerAvatar, ContainerSocialMedias } from "./styles";
 import avatar from "../../assets/avatar.png"
-import linkedin from "../../assets/icon-linkedin.svg"
-import instagram from "../../assets/icon-instagram.svg"
-import git from "../../assets/icon-github.svg"
+
+import { Linkedin } from "../../assets/icon-linkedin";
+import { Instagram } from "../../assets/icon-instagram";
+import { Github } from "../../assets/icon-github";
 
 export function Apresentation(){
     return(
         <Container>
 
             <ContainerSocialMedias>
-                <img src= {linkedin} />
-                <img src= {instagram} />
-                <img src= {git} />
+                <Linkedin />
+                <Instagram />
+                <Github />
             </ContainerSocialMedias>
             
             <ContainerApresentation>
