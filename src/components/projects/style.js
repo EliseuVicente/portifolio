@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const Container = styled.section`
     display: flex;
     position: relative;
-    padding: 1rem 5rem;
+    margin-top: 10rem;
+    /* padding: 1rem 5rem; */
     justify-content: center;
     
 `
@@ -28,7 +29,7 @@ export const Titles = styled.div`
 
 `
 
-export const HabilitiesContainer = styled.div`
+export const ProjectsContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 1.875rem 4.813rem;
@@ -36,17 +37,21 @@ export const HabilitiesContainer = styled.div`
     justify-content: center;
 `
 
-export const HabilitiesLabel = styled.div`
+export const ProjectsLabel = styled.div`
     /* flex: 1 1 auto; */
-    width: 528px;
-    height: 25rem;
-    border-radius: 80px 20px;
+    width: 33rem;
+    height: 28rem;
+    border-radius:20px;
     border: 2px solid ${props => props.theme['border-avatar']};
     background: #FAFAFA;
+
+    img {
+        margin-left: 2rem;
+    }
 `
 
-export const TitleLabel = styled.h1`
-    color: ${props => props.theme['border-avatar']};
+export const Title = styled.h1`
+    color: #000;
     font-family: 'Baloo 2';
     font-size: 30px;
     font-style: normal;
@@ -57,30 +62,24 @@ export const TitleLabel = styled.h1`
     margin-bottom: 1.5rem;
 `
 
-export const ContainerHabilitie = styled.div`
+export const LabelLinks = styled.div`
     display: inline-flex;
-    position: relative;
-    width: 10rem;
-    margin-bottom: 3rem;
-    margin-left: 4rem;
-`
-
-export const TitleHabilitie = styled.h1`
-    margin-top: -0.1rem;
-    margin-left: .5rem;
-    color: #272221;
-    font-family: 'Baloo 2';
-    font-size: 25px;
-    font-weight: 700;
-`
-
-export const LevelHabilitie = styled.p`
-    position: absolute;
+    width: 15rem;
     margin-top: 1.5rem;
-    margin-left: 2.8rem;
-    color: #574F4D;
-    font-family: 'Baloo 2';
-    font-size: 20px;
-    font-weight: 400;
+    justify-content: center;
+    /* gap: 5rem; */
 
+    span{
+        position: relative;
+        color: #574F4D;
+        font-family: 'Baloo 2';
+        top: -0.6rem;
+        left: 1rem;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    a{
+        text-decoration: none;
+    }
 `
