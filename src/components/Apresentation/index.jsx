@@ -1,9 +1,8 @@
 import { ButtonContact, Container, ContainerApresentation, ContainerAvatar, ContainerSocialMedias } from "./styles";
 import avatar from "../../assets/avatar.png"
-
-import { Linkedin } from "../../assets/icon-linkedin";
-import { Instagram } from "../../assets/icon-instagram";
-import { Github } from "../../assets/icon-github";
+import { Linkedin } from "../../assets/icons/icon-linkedin";
+import { Github } from "../../assets/icons/icon-github";
+import { Instagram } from "../../assets/icons/icon-instagram";
 
 export function Apresentation(){
     return(

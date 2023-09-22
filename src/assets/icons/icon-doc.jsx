@@ -1,6 +1,6 @@
 import { useTheme } from 'styled-components';
 
-export function Icon() {
+export function IconDoc() {
   
     const theme = useTheme('styled-components')
     
