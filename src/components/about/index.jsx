@@ -1,6 +1,6 @@
 import { ContainerApresentation, ButtonCV, ContainerAbout, Picture, Titles, Description } from "./styles";
 import picture from "../../assets/picture-about.svg"
-import { Icon } from "../../assets/icon-doc";
+import { IconDoc } from "../../assets/icons/doc";
 
 export function About(){
 
@@ -26,7 +26,7 @@ export function About(){
 
           <ButtonCV>
               Download CV
-              <Icon />
+              <IconDoc />
               
           </ButtonCV>
           
