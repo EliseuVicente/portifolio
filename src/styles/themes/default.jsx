@@ -18,6 +18,7 @@ export const themes = {
         'white': '#FFFFFF',
         'background': '#FAFAFA',
         'border-avatar' : '#4B2995',
+        
     },
     
    dark: {
@@ -27,5 +28,6 @@ export const themes = {
     'border-avatar' : '#015F43',
     'base-text': '#C4C4CC',
     'base-subtitle': '#00B37E',
+    'white': '#FFFFFF',
    }  
 }

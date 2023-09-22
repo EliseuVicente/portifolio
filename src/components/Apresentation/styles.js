@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 
 
-export const Container = styled.div`
+export const Container = styled.section`
     display: flex;
     margin-top: 5rem;
-    position: relative;
     justify-content: space-around;
 `
 
@@ -39,7 +38,7 @@ export const ContainerApresentation = styled.div`
             font-size: 20px;
             text-align: justify;
             color: ${props => props.theme['base-title']};
-            font-family: Baloo 2;
+            font-family: 'Baloo 2';
             font-style: normal;
             font-weight: 400;
             line-height: 150%;

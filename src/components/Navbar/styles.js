@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
+    position: relative;
     padding: 1rem 5rem;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +48,7 @@ export const ContainerMenu = styled.div`
 
 export const HandleChangeTheme = styled.div`
     width: 3rem;
-    height: 1.3rem;
+    height: 1.5rem;
     background: ${props => props.theme['base-card']};
     border: 1px solid black;
     border-radius: 50px;
@@ -60,7 +61,7 @@ export const HandleChangeTheme = styled.div`
 export const CicleChengeTheme = styled.div`
     display: flex;
     position:relative;
-    top: 1px;
+    top: 2.5px;
     left: 2px;
     width: 1rem;
     height: 1rem;

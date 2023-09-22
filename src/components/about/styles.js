@@ -7,6 +7,7 @@ export const ContainerAbout = styled.section`
     position: relative;
     justify-content: space-around;
     margin-top: 10rem;
+    height: 50rem;
 `
 
 export const Titles = styled.div`
