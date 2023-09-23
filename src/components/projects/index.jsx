@@ -2,6 +2,7 @@ import { Container, LabelLinks, ProjectsContainer, ProjectsLabel, Title, Titles 
 
 import ProjectCoffee from "../../assets/image-projects/project-coffee.png"
 import ProjectTimer from "../../assets/image-projects/project-timer.png"
+import ProjectToDo from "../../assets/image-projects/project-Todo.png"
 
 import { IconGlobe } from "../../assets/icons/globe";
 import { IconGithubProjects } from "../../assets/icons/github-projects";
@@ -18,7 +19,7 @@ export function Projects(){
                 <ProjectsLabel>
                     <Title>Coffee Delivery</Title>
 
-                        <img src={ProjectCoffee} height="240"/>
+                        <img src={ProjectCoffee} height="220"/>
 
                         <LabelLinks>
                             <a href="https://master.d2qksk9lhdz8jx.amplifyapp.com/">
@@ -40,7 +41,7 @@ export function Projects(){
                 <ProjectsLabel>
                     <Title>Timer</Title>
 
-                    <img src={ProjectTimer} height="240"/>
+                    <img src={ProjectTimer} height="220"/>
 
                     <LabelLinks>
                         <a href="https://master.d6obzennd2jk9.amplifyapp.com/">
@@ -59,8 +60,25 @@ export function Projects(){
            
 
                 <ProjectsLabel>
-                    <Title>Ola</Title>
+                    <Title>To Do</Title>
+
+                    <img src={ProjectToDo} height="220"/>
+
+                    <LabelLinks>
+                        <a href="https://master.drieb3nkoy6ts.amplifyapp.com/">
+                            <IconGlobe />
+                            <span>Projeto publicado</span>
+                        </a>
+                    </LabelLinks>
+
+                    <LabelLinks>
+                        <a href="https://github.com/EliseuVicente/toDo-react">
+                            <IconGithubProjects />
+                            <span>Projeto Git Hub</span>
+                        </a>
+                    </LabelLinks>
                 </ProjectsLabel>
+
             </ProjectsContainer>
             
         </Container>
