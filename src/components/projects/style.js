@@ -46,7 +46,8 @@ export const ProjectsLabel = styled.div`
     background: #FAFAFA;
 
     img {
-        margin-left: 2rem;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
     }
 `
 
