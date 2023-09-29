@@ -8,10 +8,10 @@ export function IconGithub() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="34"
-      height="30"
+      width="40"
+      height="35"
       fill="none"
-      viewBox="0 0 34 30"
+      viewBox="2 0 34 30"
     >
       <g clipPath="url(#clip0_20_13)">
         <path
