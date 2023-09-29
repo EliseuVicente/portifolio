@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
     display: flex;
     position: relative;
-    margin-top: 10rem;
-    /* padding: 1rem 5rem; */
+    padding: 6rem 0rem;
     justify-content: center;
     
 `
@@ -46,8 +45,9 @@ export const ProjectsLabel = styled.div`
     background: #FAFAFA;
 
     img {
-        margin-left: 5rem;
+        margin-left: 7rem;
         margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 `
 

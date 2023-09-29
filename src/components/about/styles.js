@@ -1,13 +1,11 @@
 import styled from 'styled-components'
 
-
-
 export const ContainerAbout = styled.section`
     display: flex;
     position: relative;
-    justify-content: space-around;
-    margin-top: 10rem;
+    padding: 6rem 0rem;
     height: 50rem;
+    justify-content: center;
 `
 
 export const Titles = styled.div`

@@ -3,7 +3,9 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
     display: flex;
-    margin-top: 5rem;
+    position: relative;
+    padding: 10rem 0rem;
+    height: 45rem;
     justify-content: space-around;
 `
 

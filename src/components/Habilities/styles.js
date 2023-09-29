@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
     display: flex;
     position: relative;
-    padding: 1rem 5rem;
+    padding: 6rem 0rem;
     justify-content: center;
     
 `
