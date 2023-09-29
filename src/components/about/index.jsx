@@ -4,9 +4,19 @@ import { IconDoc } from "../../assets/icons/doc";
 
 export function About(){
 
+  const fileUrl = ('/CV.pdf')
+  const fileName = ('EliseuVicente.pdf')
+
+  const handleDownloadCV = () => {
+    const link = document.createElement('a')
+    link.href = fileUrl
+    link.download = fileName
+    link.click()
+  }
+
 
     return (
-      <ContainerAbout>
+      <ContainerAbout id="about">
 
         <Titles>
           <h1>Sobre Mim</h1>
@@ -24,7 +34,7 @@ export function About(){
               aeruhfueirhfearufheroufhrreo</p>
           </Description>
 
-          <ButtonCV>
+          <ButtonCV onClick={handleDownloadCV}>
               Download CV
               <IconDoc />
               
