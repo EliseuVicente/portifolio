@@ -10,7 +10,7 @@ import { Container, ContainerHabilitie, HabilitiesContainer, HabilitiesLabel, Le
 
 export function Habilities(){
     return (
-        <Container>
+        <Container id="habilities">
             <Titles>
                 <h1>Habilidades</h1>
                 <h2>Conhecimentos Técnicos</h2>

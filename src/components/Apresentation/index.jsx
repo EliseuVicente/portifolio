@@ -6,12 +6,12 @@ import { IconInstagram } from "../../assets/icons/instagram";
 
 export function Apresentation(){
     return(
-        <Container>
+        <Container id="home">
 
             <ContainerSocialMedias>
-                <IconLinkedin />
-                <IconInstagram />
-                <IconGithub />
+                <a href="https://linkedin.com/in/eliseuvicenteh" target="_blank"><IconLinkedin/></a>
+                <a href="https://www.instagram.com/eliseuvicenteh/" target="_blank"><IconInstagram /></a>
+                <a href="https://github.com/EliseuVicente" target="_blank"><IconGithub /></a>
             </ContainerSocialMedias>
             
             <ContainerApresentation>
@@ -22,9 +22,12 @@ export function Apresentation(){
                     Meu objetivo é resolver problemas, trazendo soluções tecnológicas e amigáveis. 
                 </p>
 
-                <ButtonContact type="button">
-                    Entre em contato
-                </ButtonContact>
+                <a href="#contact">
+                    <ButtonContact 
+                        type="bottom">
+                        Entre em contato
+                    </ButtonContact>
+                </a>
                 
             </ContainerApresentation>
 
