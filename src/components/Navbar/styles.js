@@ -2,10 +2,13 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     display: flex;
-    position: relative;
+    position: fixed;
+    width: 100vw;
     padding: 1rem 5rem;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+    background: ${props => props.theme['background']};
 `
 export const ContainerLogo = styled.div`
     display: flex;
