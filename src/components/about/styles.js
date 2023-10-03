@@ -32,15 +32,22 @@ export const ContainerApresentation = styled.div`
     display: flex;
     position: relative;
     top: 12rem;
-    gap: 200px;
+    gap: 150px;
 `
 export const Description = styled.div`
-   width: 30rem;
+   width: 32rem;
 
    p{
         font-size: 20px;
         text-align: justify;
         color: ${props => props.theme['base-title']};
+        font-family: 'Baloo 2';
+        line-height: 150%;
+   }
+
+   strong{
+        font-size: 17px;
+        text-align: justify;
         font-family: 'Baloo 2';
         line-height: 150%;
    }
@@ -60,8 +67,8 @@ export const ButtonCV = styled.button`
     align-items: center;
     width: 237px;
     height: 67px;
-    margin-top: 21rem;
-    margin-left: 37rem;
+    margin-top: 22rem;
+    margin-left: 34rem;
     gap: 23px;
     font-style: normal;
     border:none;
