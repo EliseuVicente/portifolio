@@ -73,14 +73,3 @@ export const TitleHabilitie = styled.h1`
     font-size: 25px;
     font-weight: 700;
 `
-
-export const LevelHabilitie = styled.p`
-    position: absolute;
-    margin-top: 1.5rem;
-    margin-left: 2.8rem;
-    color: #574F4D;
-    font-family: 'Baloo 2';
-    font-size: 20px;
-    font-weight: 400;
-
-`

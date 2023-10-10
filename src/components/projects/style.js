@@ -29,15 +29,18 @@ export const Titles = styled.div`
 `
 
 export const ProjectsContainer = styled.div`
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1.875rem 4.813rem;
     margin-top: 13rem;
     justify-content: center;
+
+    @media(max-width: 868px){
+        grid-template-columns: 1fr;
+    }
 `
 
 export const ProjectsLabel = styled.div`
-    /* flex: 1 1 auto; */
     width: 33rem;
     height: 28rem;
     border-radius:20px;

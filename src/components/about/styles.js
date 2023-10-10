@@ -46,10 +46,10 @@ export const Description = styled.div`
    }
 
    strong{
-        font-size: 17px;
+        font-size: 18px;
         text-align: justify;
         font-family: 'Baloo 2';
-        line-height: 150%;
+        line-height: 180%;
    }
 `
 
@@ -73,6 +73,7 @@ export const ButtonCV = styled.button`
     font-style: normal;
     border:none;
     border-radius: 20px;
+    cursor: pointer;
     background: ${props => props.theme['base-card']};
 
     color: ${props => props.theme['background']};

@@ -35,13 +35,14 @@ export const ContainerContact = styled.div`
     margin-top: 5rem;
     margin-bottom: 8rem;
     text-align: start;
-
-    flex-wrap: wrap;
     gap: 9.063rem;
 
     justify-content: center;
     align-items: center;
     
+    @media(max-width: 968px){
+        flex-wrap: wrap;
+    }
 
     p{
         position: absolute;

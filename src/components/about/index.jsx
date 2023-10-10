@@ -32,8 +32,8 @@ export function About(){
             <p>Persistência, foco, resiliência e otimismo. Essas palavras me resumem, sempre estou disposto e animado a 
               encarar novos desafios. Não me permito viver no comodismo.
               Com experiência em Suporte e Infraestrutura de T.I, pude trabalhar nos mais variados ambientes e escopos. 
-              Sou flexível, e me adapto com muita facilidade, agora nesta etapa com o desenvolvimento quero somar toda a minha
-              experiência em T.I com Infraestrutura para descobrir e melhor aproveitar novas oportunidades e tecnologias.
+              Agora nesta etapa com o desenvolvimento, quero somar toda a minha
+              experiência em T.I para evoluir no mundo da Tecnologia.
             </p>
             <strong>Baixe o meu currículo e conheça um pouco mais de minhas experiências !</strong>
           </Description>

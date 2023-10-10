@@ -6,7 +6,7 @@ import { IconMysql } from "../../assets/icons/mysql";
 import { IconNode } from "../../assets/icons/node";
 import { IconReact } from "../../assets/icons/react";
 import { IconTalwind } from "../../assets/icons/talwind";
-import { Container, ContainerHabilitie, HabilitiesContainer, HabilitiesLabel, LevelHabilitie, TitleHabilitie, TitleLabel, Titles } from "./styles";
+import { Container, ContainerHabilitie, HabilitiesContainer, HabilitiesLabel, TitleHabilitie, TitleLabel, Titles } from "./styles";
 
 export function Habilities(){
     return (
@@ -24,31 +24,26 @@ export function Habilities(){
                     <ContainerHabilitie>
                         <IconReact />
                         <TitleHabilitie>React</TitleHabilitie>
-                        <LevelHabilitie>Básico</LevelHabilitie>
                     </ContainerHabilitie>
 
                     <ContainerHabilitie>
                         <IconJavaScript />
                         <TitleHabilitie>JavaScript</TitleHabilitie>
-                        <LevelHabilitie>Intermediário</LevelHabilitie>
                     </ContainerHabilitie>
 
                     <ContainerHabilitie>
                         <IconHTML />
                         <TitleHabilitie>HTML</TitleHabilitie>
-                        <LevelHabilitie>Intermediário</LevelHabilitie>
                     </ContainerHabilitie>
 
                     <ContainerHabilitie>
                         <IconCss />
                         <TitleHabilitie>CSS</TitleHabilitie>
-                        <LevelHabilitie>Intermediário</LevelHabilitie>
                     </ContainerHabilitie>
 
                     <ContainerHabilitie>
                         <IconTalwind />
                         <TitleHabilitie>Talwind</TitleHabilitie>
-                        <LevelHabilitie>Básico</LevelHabilitie>
                     </ContainerHabilitie>
 
                 </HabilitiesLabel>
@@ -59,19 +54,16 @@ export function Habilities(){
                     <ContainerHabilitie>
                         <IconNode />
                         <TitleHabilitie>Node JS</TitleHabilitie>
-                        <LevelHabilitie>Básico</LevelHabilitie>
                     </ContainerHabilitie>
 
                     <ContainerHabilitie>
                         <IconAWS />
                         <TitleHabilitie>AWS</TitleHabilitie>
-                        <LevelHabilitie>Básico</LevelHabilitie>
                     </ContainerHabilitie>
 
                     <ContainerHabilitie>
                         <IconMysql />
                         <TitleHabilitie>MySQL</TitleHabilitie>
-                        <LevelHabilitie>Básico</LevelHabilitie>
                     </ContainerHabilitie>
 
                     <ContainerHabilitie>
