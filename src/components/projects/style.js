@@ -26,6 +26,11 @@ export const Titles = styled.div`
         color: ${props => props.theme['base-subtitle']};
     }
 
+    @media (max-width: 768px){
+        justify-content: center;
+        text-align: center;
+     }
+
 `
 
 export const ProjectsContainer = styled.div`
@@ -52,6 +57,16 @@ export const ProjectsLabel = styled.div`
         margin-bottom: 2rem;
         margin-top: 2rem;
     }
+
+    @media (max-width: 768px){
+        width: 90vw;
+
+        img{
+            margin-bottom: 0rem;
+            margin-left: 50%;
+            transform: translate(-50%);
+        }
+     }
 `
 
 export const Title = styled.h1`
@@ -85,5 +100,9 @@ export const LabelLinks = styled.div`
 
     a{
         text-decoration: none;
+    }
+
+    @media (max-width: 768px){
+        width: 90vw;
     }
 `

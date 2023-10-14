@@ -6,6 +6,9 @@ export const Container = styled.section`
     padding: 6rem 0rem;
     justify-content: center;
     
+    @media (max-width: 768px){
+        width: 100vw;
+     }
 `
 
 export const Titles = styled.div`
@@ -34,6 +37,10 @@ export const HabilitiesContainer = styled.div`
     gap: 1.875rem 4.813rem;
     margin-top: 13rem;
     justify-content: center;
+
+    @media (max-width: 768px){
+        margin-top: 10rem;
+     }
 `
 
 export const HabilitiesLabel = styled.div`
@@ -43,6 +50,10 @@ export const HabilitiesLabel = styled.div`
     border-radius: 80px 20px;
     border: 2px solid ${props => props.theme['border-avatar']};
     background: #FAFAFA;
+
+    @media (max-width: 768px){
+        width: 90vw;
+     }
 `
 
 export const TitleLabel = styled.h1`
@@ -63,6 +74,11 @@ export const ContainerHabilitie = styled.div`
     width: 10rem;
     margin-bottom: 3rem;
     margin-left: 4rem;
+
+    @media (max-width: 768px){
+        margin-left: 2.5rem;
+        margin-bottom: 1.5rem;
+     }
 `
 
 export const TitleHabilitie = styled.h1`

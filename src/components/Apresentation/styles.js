@@ -7,6 +7,13 @@ export const Container = styled.section`
     padding: 10rem 0rem;
     height: 45rem;
     justify-content: space-around;
+
+    @media (max-width: 768px){
+        padding: 7rem 0rem;
+        justify-content: center;
+        height: 35rem;
+    }
+    
 `
 
 export const ContainerSocialMedias = styled.div`
@@ -15,6 +22,13 @@ export const ContainerSocialMedias = styled.div`
     justify-content: center;
     align-items: flex-start;
     gap: 19.884px;
+
+    @media (max-width: 768px){
+        flex-direction: row;
+        position: absolute;
+        gap: 55px;
+        margin-top: 18rem;
+    }
 `
 
 export const ContainerApresentation = styled.div`
@@ -45,7 +59,11 @@ export const ContainerApresentation = styled.div`
             font-weight: 400;
             line-height: 150%;
         }
-        
+        @media (max-width: 768px){
+            width: 85vw;
+            text-align: center;
+            
+        }
 `
 
 export const ButtonContact = styled.button`
@@ -70,6 +88,11 @@ export const ButtonContact = styled.button`
         background-color: #F5F5F5;
         color: black;
     }
+
+    @media (max-width: 768px){
+        margin-top: 8rem;
+
+    }
 `
 
 export const ContainerAvatar = styled.div`
@@ -80,5 +103,9 @@ export const ContainerAvatar = styled.div`
         width: 27.438rem;
         height: 27.438rem;
         margin-right: 6rem;
+    }
+
+    @media (max-width: 768px){
+       display: none;
     }
 `
