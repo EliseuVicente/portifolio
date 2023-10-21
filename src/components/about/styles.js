@@ -67,7 +67,8 @@ export const Description = styled.div`
         font-size: 18px;
         text-align: justify;
         font-family: 'Baloo 2';
-        line-height: 180%;
+        color: ${props => props.theme['base-subtitle']};
+        line-height: 150%;
    }
 
    @media (max-width: 768px){
