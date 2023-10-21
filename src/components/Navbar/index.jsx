@@ -47,7 +47,7 @@ const handleOpenMenu = () => {
             style={Scroll ? { borderBottom: '1px solid #d1d0cf53'} : {}}>
 
             <ContainerLogo>
-                <p>EliseuVicente</p>
+                <a href="#home"><p>EliseuVicente</p></a>
             </ContainerLogo>
 
             {

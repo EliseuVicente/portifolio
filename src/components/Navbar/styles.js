@@ -23,13 +23,16 @@ export const ContainerLogo = styled.div`
         font-size: 25px;
         font-family: 'Baloo 2';
     }
+
+    a{
+        text-decoration: none;
+    }
 `
 
 export const ContainerMenu = styled.div`
     display: flex;
     align-items: flex-start;
     gap: 25px;
-    // flex-shrink: 0;
     
     a{
         text-decoration: none;
