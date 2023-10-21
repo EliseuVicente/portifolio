@@ -2,7 +2,7 @@ import { Container, LabelLinks, ProjectsContainer, ProjectsLabel, Title, Titles 
 
 import ProjectCoffee from "../../assets/image-projects/project-coffee.png"
 import ProjectTimer from "../../assets/image-projects/project-timer.png"
-import ProjectToDo from "../../assets/image-projects/project-todo.png"
+// import ProjectToDo from "../../assets/image-projects/project-todo.png"
 import ProjectJS from "../../assets/image-projects/project-jsengenharia.png"
 
 import { IconGlobe } from "../../assets/icons/globe";
@@ -63,7 +63,7 @@ export function Projects(){
                 <ProjectsLabel>
                     <Title>To Do</Title>
 
-                    <img src={ProjectToDo} height="180"/>
+                    {/* <img src={ProjectToDo} height="180"/> */}
 
                     <LabelLinks>
                         <a href="https://master.drieb3nkoy6ts.amplifyapp.com/">
