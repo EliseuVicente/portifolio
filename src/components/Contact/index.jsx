@@ -15,24 +15,31 @@ export function Contact(){
             <ContainerContact>
                 <p>Fale Comigo</p>
 
-                <LabelContact>
-                    <h1>E-mail</h1>
-                    <IconEmail />
-                    <span>eliseu965@gmail.com</span>
-                </LabelContact>
+                <a href="mailto:eliseu965@gmail.com" target="_blank">
+                    <LabelContact>
+                        <h1>E-mail</h1>
+                        <IconEmail />
+                        <span>eliseu965@gmail.com</span>
+                    </LabelContact>
+                </a>
 
-                <LabelContact>
-                    <h1>Whatsapp</h1>
-                    <IconWhatsapp />
-                    <span>+55 19 98725-2725</span>
-                </LabelContact>
+                <a href="https://wa.me/5519987252725" target="_blank">
+                    <LabelContact>
+                        <h1>Whatsapp</h1>
+                        <IconWhatsapp />
+                        <span>+55 19 98725-2725</span>
+                    </LabelContact>
+                </a>
 
+                <a  href="https://linkedin.com/in/eliseuvicenteh" target="_blank">
                 <LabelContact>
-                    <h1>Linkedin</h1>
-                    <IconLinkedinContact />
-                    <span>linkedin.com/in/eliseuvicenteh</span>
-                </LabelContact>
+                    
+                        <h1>Linkedin</h1>
+                        <IconLinkedinContact />
+                        <span>linkedin.com/in/eliseuvicenteh</span>
 
+                </LabelContact>
+                </a>
             </ContainerContact>
             
         </Container>

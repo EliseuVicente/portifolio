@@ -6,6 +6,10 @@ export const ContainerFooter = styled.section`
     padding: 5rem;
     justify-content: center;
     background: ${props => props.theme['border-avatar']};
+
+    @media(max-width: 768px){
+        padding: 10rem;
+    }
 `
 
 export const FooterName = styled.h1`
@@ -24,4 +28,10 @@ export const ContainerIcons = styled.div`
     position: relative;
     margin-top: 10rem;
     gap: 5rem;
+
+    @media(max-width: 768px){
+        gap: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
 `

@@ -11,9 +11,9 @@ export function Footer(){
 
 
             <ContainerIcons>
-                <IconLinkedin />
-                <IconInstagram />
-                <IconGithub />
+                <a href="https://linkedin.com/in/eliseuvicenteh" target="_blank"><IconLinkedin /></a>
+                <a href="https://www.instagram.com/eliseuvicenteh/" target="_blank"><IconInstagram /></a>
+                <a href="https://github.com/EliseuVicente" target="_blank"><IconGithub /></a>
             </ContainerIcons>
             
         </ContainerFooter>

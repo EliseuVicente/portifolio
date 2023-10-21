@@ -44,6 +44,11 @@ export const ContainerContact = styled.div`
         flex-wrap: wrap;
     }
 
+    @media (max-width: 768px){
+        padding: 3rem 0rem;
+        margin-top: 3rem;
+    }
+
     p{
         position: absolute;
         color: ${props => props.theme['base-title']};
@@ -71,7 +76,7 @@ export const LabelContact = styled.div`
     h1{
         display: block;
         position: absolute;
-        margin-top: -10rem;
+        margin-top: -8rem;
         color: #574F4D;
         font-family: 'Baloo 2';
         font-size: 20px;
@@ -84,5 +89,10 @@ export const LabelContact = styled.div`
         color: #4B2995;
         font-family: 'Baloo 2';
         font-size: 15px;
+    }
+
+    @media (max-width: 768px){
+        margin-top: 7rem;
+        margin-bottom: -15rem;
     }
 `

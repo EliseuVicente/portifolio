@@ -29,6 +29,7 @@ export const Titles = styled.div`
     @media (max-width: 768px){
         justify-content: center;
         text-align: center;
+        width: 100vw;
      }
 
 `
@@ -79,6 +80,12 @@ export const Title = styled.h1`
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+
+    @media (max-width: 768px){
+        width: 90vw;
+        font-size: 25px;
+     }
+
 `
 
 export const LabelLinks = styled.div`
@@ -103,6 +110,11 @@ export const LabelLinks = styled.div`
     }
 
     @media (max-width: 768px){
-        width: 90vw;
+        width: 40vw;
+        margin-top: 5rem;
+        margin-left: .5rem;
+        span{
+            left: .3rem;
+        }
     }
 `
