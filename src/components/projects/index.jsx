@@ -1,9 +1,9 @@
 import { Container, LabelLinks, ProjectsContainer, ProjectsLabel, Title, Titles } from "./style";
 
-import { ProjectCoffee } from "../../assets/image-projects/project-coffee.png"
-import { ProjectTimer } from "../../assets/image-projects/project-timer.png"
-import { ProjectDo } from "../../assets/image-projects/project-todo.jpeg"
-import { ProjectJS } from "../../assets/image-projects/project-jsengenharia.png"
+import ProjectCoffee from "../../assets/image-projects/project-coffee.png"
+import ProjectTimer from "../../assets/image-projects/project-timer.png"
+import ProjectDo from "../../assets/image-projects/project-todo.jpeg"
+import ProjectJS from "../../assets/image-projects/project-jsengenharia.png"
 
 import { IconGlobe } from "../../assets/icons/globe";
 import { IconGithubProjects } from "../../assets/icons/github-projects";
