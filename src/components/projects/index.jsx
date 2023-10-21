@@ -2,7 +2,7 @@ import { Container, LabelLinks, ProjectsContainer, ProjectsLabel, Title, Titles 
 
 import ProjectCoffee from "../../assets/image-projects/project-coffee.png"
 import ProjectTimer from "../../assets/image-projects/project-timer.png"
-import ProjectToDo from "../../assets/image-projects/project-Todo.png"
+import ProjectToDo from "../../assets/image-projects/project-todo.png"
 import ProjectJS from "../../assets/image-projects/project-jsengenharia.png"
 
 import { IconGlobe } from "../../assets/icons/globe";
