@@ -4,6 +4,7 @@ import ProjectCoffee from "../../assets/image-projects/project-coffee.png"
 import ProjectTimer from "../../assets/image-projects/project-timer.png"
 import ProjectDo from "../../assets/image-projects/project-todo.jpeg"
 import ProjectJS from "../../assets/image-projects/project-jsengenharia.png"
+import ProjectRS from "../../assets/image-projects/project-rsconsultoria.png"
 
 import { IconGlobe } from "../../assets/icons/globe";
 import { IconGithubProjects } from "../../assets/icons/github-projects";
@@ -17,6 +18,20 @@ export function Projects(){
             </Titles>
 
             <ProjectsContainer>
+
+            <ProjectsLabel>
+                    <Title>RS Consultoria</Title>
+
+                        <img src={ProjectRS} height="180"/>
+
+                        <LabelLinks>
+                            <a href="https://rsconsultoriadeseguranca.com.br/">
+                                <IconGlobe />
+                                <span>Projeto publicado</span>
+                            </a>
+                        </LabelLinks> 
+                </ProjectsLabel>
+
                 <ProjectsLabel>
                     <Title>Coffee Delivery</Title>
 
@@ -34,8 +49,7 @@ export function Projects(){
                                 <IconGithubProjects />
                                 <span>Projeto Git Hub</span>
                             </a>
-                        </LabelLinks>
-                                       
+                        </LabelLinks>      
                 </ProjectsLabel>
            
 
@@ -86,7 +100,7 @@ export function Projects(){
                     <img src={ProjectJS} height="180"/>
 
                     <LabelLinks>
-                        <a href="https://www.jsengenhariadotrabalho.com.br/">
+                        <a href="https://main.d1zhx5g1mcx8f3.amplifyapp.com">
                             <IconGlobe />
                             <span>Projeto publicado</span>
                         </a>

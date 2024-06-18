@@ -18,8 +18,8 @@ export function Apresentation(){
                 <h1>Eliseu Vicente</h1>
                 <h2>Front-End Developer</h2>
                 <br/>
-                <p> Amo descobrir coisas novas e sempre estou aberto para aprender mais e mais.
-                    Meu objetivo é resolver problemas, trazendo soluções tecnológicas e amigáveis. 
+                <p> Amo descobrir coisas novas e estou sempre aberto para aprender e aprimorar meu conhecimento.
+                    Meu objetivo é resolver problemas através de soluções tecnológicas e amigáveis.
                 </p>
 
                 <a href="#contact">

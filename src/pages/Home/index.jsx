@@ -9,11 +9,11 @@ export function Home(){
     return(
        <>
 
-        <Apresentation /> {/* Não esta estourando no width */}
+        <Apresentation />
 
         <About />
 
-        <Habilities /> {/* Não esta estourando no width */}
+        <Habilities />
 
         <Projects />
 
